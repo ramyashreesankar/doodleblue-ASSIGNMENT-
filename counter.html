@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <title>javascript counter</title>
+</head>
+<body>
+    <h2>Counter: <span id="count">0</span></h2>
+    <button onclick="Sum()">Sum</button>
+    <button onclick="Difference()">Difference</button>
+    <button onclick="Multiplication()">Multiplication</button>
+    <button onclick="Division()">Division</button>
+    <button onclick="reset()">Reset</button>
+    <script>
+        let a= 14;
+        let b= 6;
+        let count = 0;
+        let diff=0;
+        let mul=0;
+        let div=0;
+        function Sum() {
+            count = a + b;
+            document.getElementById("count").innerText = count;
+        }
+        function Difference() {
+            diff = a - b;
+            document.getElementById("count").innerText = diff;
+        }
+        function Multiplication() {
+            mul = a * b;
+            document.getElementById("count").innerText = mul;
+        }
+        function Division() {
+            div = a / b;
+            document.getElementById("count").innerText = div;
+        }
+        function reset() {
+            count = 0;
+            diff = 0;
+            mul = 0;
+            div = 0;
+            document.getElementById("count").innerText = count;
+        }
+    </script>
+</body>     
+</html>

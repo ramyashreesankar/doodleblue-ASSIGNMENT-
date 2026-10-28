@@ -1,40 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Ramya Shree S - Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramya Shree S - Resume</title>
+    <style>
+        body {
+            background-image: url('1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+        .profile-img {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            width: 130px;
+            height: 150px;
+            object-fit: cover;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 20px;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #f4f7fb;
+        }
+        h1 {
+            color: #17365d;
+            font-size: 35px;
+        }
+        h2 {
+            color: #17365d;
+            background-color: #eaf2f8;
+            padding: 8px;
+            border-left: 5px solid #2874a6;
+            border-radius: 5px;
+        }
+        h3 {
+            color: #34495e;
+        }
+        a {
+            color: #0866a6;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #c0392b;
+            text-decoration: underline;
+        }
+        th {
+            background-color: #17365d;
+            color: white;
+            padding: 12px;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #b7c9d6;
+        }
+        tr:nth-child(even) {
+            background-color: #eaf2f8;
+        }
+        tr:hover {
+            background-color: #d6eaf8;
+        }
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #b7c9d6;
+            margin: 25px 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        marquee {
+            background-color: #dceaf7;
+            color: #17365d;
+            padding: 8px;
+            font-weight: bold;
+        }
+        fieldset {
+            border: 2px solid #9eb6c8;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: rgba(234, 242, 248, 0.8);
+        }
+        legend {
+            color: #17365d;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            border: 1px solid #9eb6c8;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 15px;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        input[type="submit"] {
+            background-color: #17365d;
+            color: white;
+        }
+        input[type="reset"] {
+            background-color: #d5dce3;
+            color: black;
+        }
+        input[type="submit"]:hover {
+            background-color: #2874a6;
+        }
+        input[type="reset"]:hover {
+            background-color: #b8c5d1;
+        }
+        .profile-img {
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        @media (max-width: 600px) {
+            body {
+                margin: 5px;
+                padding: 5px;
+                background-attachment: scroll;
+            }
+            .profile-img {
+                width: 90px;
+                height: 110px;
+                right: 10px;
+            }
+            h1 {
+                font-size: 25px;
+            }
+            table {
+                font-size: 12px;
+            }
+            th,
+            td {
+                padding: 5px;
+            }
+        }
+    </style>
 </head>
-
 <body>
-
+    <img src="profile.jpg"
+         alt="Ramya Shree Profile Photo"
+         class="profile-img">
     <center>
         <h1><u>RAMYA SHREE S</u></h1>
         <h3>Final Year B.Tech Information Technology</h3>
         <h3>Aspiring Software Engineer | Web Developer</h3>
-
         <p>
             Chennai, Tamil Nadu<br>
-            Phone: <a href="tel:+918838842592">8838842592</a><br>
-            Email: <a href="mailto:ramyashreesankar@gmail.com">ramyashreesankar@gmail.com</a><br>
+            Phone: 8838842592<br>
+            Email: ramyashreesankar@gmail.com<br>
             LinkedIn:
-            <a href="https://linkedin.com/in/ramya-shree-s3110">
-                My LinkedIn Profile<br>
-            Github:
-            <a href="https://github.com/ramyashreesankar">
+            <a href="https://linkedin.com/in/ramya-shree-s3110"
+               target="_blank">
+                My LinkedIn Profile
+            </a><br>
+            GitHub:
+            <a href="https://github.com/ramyashreesankar"
+               target="_blank">
                 My GitHub Profile
             </a>
         </p>
     </center>
-
     <hr>
-
     <marquee direction="left" scrollamount="4">
-        <b>WELCOME TO MY RESUME | LEARN • BUILD • GROW • ACHIEVE</b>
+        <b>WELCOME TO MY RESUME | LEARN - BUILD - GROW - ACHIEVE</b>
     </marquee>
-
     <hr>
-
     <h2>ABOUT ME</h2>
-
     <p>
         Hello! I am Ramya Shree, a final-year Information Technology student
         at S.A. Engineering College. I enjoy learning about programming and
@@ -43,54 +206,42 @@
         career in software development, gaining practical experience, and
         improving my technical skills.
     </p>
-
     <hr>
-
     <h2>TECHNICAL SKILLS</h2>
-
-    <table border="1" cellpadding="8" cellspacing="0" width="100%">
+    <table border="1" cellpadding="8" cellspacing="0">
         <tr>
             <th>Skill Category</th>
             <th>Skills</th>
         </tr>
-
         <tr>
             <td>Programming Languages</td>
             <td>C, C++, Java, Python</td>
         </tr>
-
         <tr>
             <td>Web Development</td>
             <td>HTML, CSS, JavaScript</td>
         </tr>
-
         <tr>
             <td>Core Subjects</td>
             <td>DBMS, Operating Systems, Computer Networks, DSA</td>
         </tr>
-
         <tr>
             <td>Tools</td>
             <td>Visual Studio Code, NetBeans, MS Office, Canva, Figma</td>
         </tr>
     </table>
-
     <hr>
-
     <h2>MY PROJECTS</h2>
-
     <h3>1. TeamPulse - Employee Tracking and Management System</h3>
-
     <p>
-        <b>Technologies:</b> HTML, CSS, JavaScript, React.js, Java (Spring Boot), MySQL
+        <b>Technologies:</b>
+        HTML, CSS, JavaScript, React.js, Java (Spring Boot), MySQL
     </p>
-
     <ul>
         <li>Developed an employee management application with different roles.</li>
         <li>Included Admin, Manager, and Employee access.</li>
         <li>Worked on organizing employee information and role-based features.</li>
     </ul>
-
     <h3>2. RA Bus - Smart Bus Management System</h3>
 
     <p>
@@ -103,21 +254,17 @@
     </ul>
 
     <h3>3. Go Wander - Travel Management Website</h3>
-
     <p>
         <b>Technologies:</b> HTML, CSS, JavaScript
     </p>
-
     <ul>
         <li>Created a travel website for exploring destinations and trip booking.</li>
         <li>Practised building web pages using frontend technologies.</li>
     </ul>
-
     <hr>
-
     <h2>EDUCATION</h2>
 
-    <table border="1" cellpadding="8" cellspacing="0" width="100%">
+    <table border="1" cellpadding="8" cellspacing="0">
         <tr>
             <th>Qualification</th>
             <th>Institution</th>
@@ -146,17 +293,13 @@
             <td>71%</td>
         </tr>
     </table>
-
     <hr>
-
     <h2>CERTIFICATIONS AND INTERNSHIPS</h2>
-
     <ol>
         <li>
             <b>Master in Software Application</b>
             <p>Apollo Computer Education Ltd. | Grade: A+ | January 2026</p>
         </li>
-
         <li>
             <b>Web Development Internship</b>
             <p>Globesci Technologies Pvt. Ltd. | June 2026</p>
@@ -171,59 +314,46 @@
             <b>NPTEL - Programming in Java</b>
             <p>Score: 57% | July 2024</p>
         </li>
-
         <li>
             <b>Create a Promotional Video using Canva</b>
             <p>Coursera</p>
         </li>
-
         <li>
             <b>AI Internship - Image Classifier Project</b>
             <p>Approtech R&D Solutions Pvt. Ltd. | June 2025 - July 2025</p>
         </li>
     </ol>
-
     <hr>
-
     <h2>MY STRENGTHS</h2>
-
     <ul>
         <li>Willingness to learn new technologies</li>
         <li>Interest in solving programming problems</li>
         <li>Creative thinking and curiosity</li>
         <li>Commitment to improving my skills</li>
     </ul>
-
     <hr>
-
     <h2>MY CAREER GOAL</h2>
-
     <p>
         My goal is to become a skilled software developer, work on meaningful
         projects, and keep learning through real-world experience.
     </p>
-
     <hr>
-
     <h2>CONTACT ME</h2>
-
     <p>
         If you would like to connect with me regarding internships,
         projects, or career opportunities, please use the details below.
     </p>
-
     <form>
         <fieldset>
             <legend>Send Me a Message</legend>
-
             <label for="name">Your Name:</label><br>
-            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name">
             <br><br>
-
             <label for="email">Your Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email">
             <br><br>
-
             <label for="purpose">Purpose of Contact:</label><br>
             <select id="purpose" name="purpose">
                 <option>Internship Opportunity</option>
@@ -232,23 +362,17 @@
                 <option>Other</option>
             </select>
             <br><br>
-
             <label for="message">Your Message:</label><br>
             <textarea id="message" name="message" rows="4" cols="40"
-                placeholder="Write your message here"></textarea>
+                      placeholder="Write your message here"></textarea>
             <br><br>
-
             <input type="submit" value="Submit">
             <input type="reset" value="Clear">
         </fieldset>
     </form>
-
     <hr>
-
     <center>
         <h3>Thank You for Visiting My Resume!</h3>
-
-            </center>
-
+    </center>
 </body>
 </html>
